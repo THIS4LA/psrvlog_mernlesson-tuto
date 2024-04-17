@@ -19,7 +19,7 @@ const UserForm = (props) => {
 
       <Grid item xs={12} sm={6} sx={{ display: "flex" }}>
         <Typography
-          component={"label"}
+          component={'label'}
           htmlFor="id"
           sx={{
             color: "#000000",
@@ -43,7 +43,7 @@ const UserForm = (props) => {
 
       <Grid item xs={12} sm={6} sx={{ display: "flex" }}>
         <Typography
-          component={"label"}
+          component={'label'}
           htmlFor="id"
           sx={{
             color: "#000000",
