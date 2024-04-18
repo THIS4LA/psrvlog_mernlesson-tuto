@@ -67,20 +67,19 @@ const UserForm = (props) => {
 
       <Button
         sx={{
-          margin: "auto",
-          marginBottom: "20px",
-          backgroundColor: "#00c6e6",
-          color: "#000000",
-          width: "100px",
-          height: "40px",
-          fontSize: "16px",
-          borderRadius: "10px",
-          "&:hover": {
-            opacity: 0.7,
-            backgroundColor: "#00c6e6",
-            color: "#000000",
-          },
+          margin: 'auto',
+          marginBottom:'20px',
+          backgroundColor: '#00c6e6',
+          color: '#000000',
+          marginLeft: '15px',
+          marginTop: '20px',
+          '&:hover': {
+            opacity: '0.7',
+            backgroundColor: '#00c6e6',
+          }
+
         }}
+        onClick={() => {}}
       >
         Submit
       </Button>

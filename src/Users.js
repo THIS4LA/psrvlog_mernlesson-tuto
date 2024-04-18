@@ -21,6 +21,8 @@ const Users = () => {
                 width: 'calc(100% -100px)',
                 margin: 'auto',
                 marginTop: '100px',
+                paddingLeft: '2%',
+                paddingRight: '2%',
             }}
         >
             <UserForm />
