@@ -8,12 +8,12 @@ import Users from './Users';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- //<BrowserRouter>
+  <BrowserRouter>
   <Routes>
     <Route path='/' element={<App />} />
     <Route path='/users' element={<Users />} />
   </Routes>
- //</BrowserRouter>
+ </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
